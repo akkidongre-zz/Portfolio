@@ -165,15 +165,24 @@ figure.image {
 /* Testimonials section */
 
 .carousel-item {
-    margin-bottom: 2rem;
+    height: 22rem;
 }
 
 .quote-avatar {
     width: 5rem;
 }
 
+.quote-author {
+    display: inline-block;
+}
+
 .author-role {
     margin-bottom: 2rem;
+}
+
+.social-btn-quote {
+    /* border: 1px solid var(--primary-color); */
+    color: var(--primary-color);
 }
 
 /* Contact section */
